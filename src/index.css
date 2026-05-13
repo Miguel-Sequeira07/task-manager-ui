@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Dentro de @layer base as utilities do Tailwind têm prioridade */
+@layer base {
+  button {
+    white-space: nowrap;
+    overflow: visible;
+  }
+}
